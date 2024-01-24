@@ -1,0 +1,83 @@
+/* tags components */
+.tag {
+    padding: 8px 16px;
+    display: inline-flex;
+    place-items: center;
+    background: var(--Sky-Lighter, #F2F4F5);
+    border-radius: var(--tag-border-radius);
+}
+
+.tag p {
+    font-size: 16px;
+}
+
+.active {
+    background: #E7E7FF !important
+}
+
+/*end of tag components */
+
+/* blog card */
+.blog-card {
+    width: 100%;
+    display: grid;
+    gap: 12px
+}
+
+.blog-card .blog-image {
+    height: 195px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog-card .blog-title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.blog-card .blog-footer {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+/*end of blog card */
+
+
+.short-blog {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.short-blog img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+
+.short-blog>div {
+    display: grid;
+    gap: 8px;
+    align-items: center;
+}
+
+.short-blog h2 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.short-blog p {
+    color: #6C7072;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.333% */
+}

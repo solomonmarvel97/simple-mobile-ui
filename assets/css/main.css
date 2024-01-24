@@ -1,0 +1,64 @@
+@import url('./fonts.css');
+@import url('./utilities.css');
+@import url('./components.css');
+
+:root {
+    --Ink-Darkest: #090A0A;
+    --tag-border-radius: 32px
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2 {
+    color: var(--Ink-Darkest);
+    font-family: Inter;
+    font-weight: 700;
+}
+
+
+@media (max-width: 767px) {
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cen {
+    font-weight: 700;
+}
+
+.tags {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.short-blogs {
+    display: grid;
+    gap: 24px
+}
